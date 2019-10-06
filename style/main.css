@@ -19,7 +19,7 @@ body {
 #cards {
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 57%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: flex;
