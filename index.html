@@ -1,146 +1,162 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css" rel="stylesheet" type="text/css" />
     <title>Start</title>
 </head>
 
 <body>
-        <div id=searchboxContainer>
-            <input id=searchbox type="text" placeholder="search" autofocus car>
-        </div>
-    <section id="cards">
-        <div class="card" id="radio">
+    <section id="main-content">
+        <section id="search-weather">
+            <div id=searchboxContainer>
+                <input id=searchbox type="text" placeholder="search" autofocus car>
+            </div>
+            <div id="weather">
+                <p>the weather will go here </p>
+            </div>
+        </section>
+        <section id="cards">
+            <div class="card" id="radio">
                 <h1>Radio 📻</h1>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         select
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href='https://www.youtube.com/results?search_query=chill' >
+                        <a href='https://www.youtube.com/results?search_query=chill'>
                             <button class="dropdown-item" type="button"> Chill Youtube</button>
                         </a>
-                        <a href='https://mynoise.net/NoiseMachines/campingRainNoiseGenerator.php' >
+                        <a href='https://mynoise.net/NoiseMachines/campingRainNoiseGenerator.php'>
                             <button class="dropdown-item" type="button">Rain</button>
                         </a>
                     </div>
                 </div>
-        </div>
-        <div class="card" id="school">
+            </div>
+            <div class="card" id="school">
                 <h1>School 📚</h1>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         select
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href='https://dalonline.dal.ca' >
+                        <a href='https://dalonline.dal.ca'>
                             <button class="dropdown-item" type="button">dalonline</button>
                         </a>
-                        <a href='https://dal.brightspace.com' >
+                        <a href='https://dal.brightspace.com'>
                             <button class="dropdown-item" type="button">brightspace</button>
                         </a>
-                        <a href='https://git.cs.dal.ca' >
+                        <a href='https://git.cs.dal.ca'>
                             <button class="dropdown-item" type="button">FCS GitLab</button>
                         </a>
-                        <a href='https://web.cs.dal.ca/~mheywood/CSCI3154/' >
+                        <a href='https://web.cs.dal.ca/~mheywood/CSCI3154/'>
                             <button class="dropdown-item" type="button">AI Class Page</button>
                         </a>
                     </div>
                 </div>
-        </div>
-        <div class="card" id="develop">
+            </div>
+            <div class="card" id="develop">
                 <h1>Develop ⌨️</h1>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         select
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href="https://github.com" >
+                        <a href="https://github.com">
                             <button class="dropdown-item" type="button">GitHub</button>
                         </a>
-                        <a href="https://leetcode.com" >
+                        <a href="https://leetcode.com">
                             <button class="dropdown-item" type="button">leetcode</button>
                         </a>
-                        <a href='https://github.com/EbookFoundation/free-programming-books' >
+                        <a href='https://github.com/EbookFoundation/free-programming-books'>
                             <button class="dropdown-item" type="button">books</button>
                         </a>
-                        <a href="https://mycareer.dal.ca/login/student.htm" >
+                        <a href="https://mycareer.dal.ca/login/student.htm">
                             <button class="dropdown-item" type="button">mycareer</button>
                         </a>
-                        <a href="https://codepen.io" >
+                        <a href="https://codepen.io">
                             <button class="dropdown-item" type="button">codepen</button>
                         </a>
                     </div>
                 </div>
-        </div>
-        <div class="card" id="personal">
+            </div>
+            <div class="card" id="personal">
                 <h1>Personal ⭐</h1>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         select
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href='https://www.messenger.com' >
+                        <a href='https://www.messenger.com'>
                             <button class="dropdown-item" type="button">messenger</button>
                         </a>
-                        <a href='https://www.youtube.com' >
+                        <a href='https://www.youtube.com'>
                             <button class="dropdown-item" type="button">youtube</button>
                         </a>
-                        <a href='https://www.twitter.com' >
+                        <a href='https://www.twitter.com'>
                             <button class="dropdown-item" type="button">twitter</button>
                         </a>
-                        <a href='https://www.twitch.tv' >
+                        <a href='https://www.twitch.tv'>
                             <button class="dropdown-item" type="button">twitch</button>
                         </a>
-                        <a href='https://old.reddit.com/r/nhlstreams' >
+                        <a href='https://old.reddit.com/r/nhlstreams'>
                             <button class="dropdown-item" type="button">nhlstreams</button>
                         </a>
-                        <a href='https://old.reddit.com/r/competitiveoverwatch' >
+                        <a href='https://old.reddit.com/r/competitiveoverwatch'>
                             <button class="dropdown-item" type="button">compOverwatch</button>
                         </a>
                     </div>
                 </div>
-        </div>
-        <div class="card" id="money">
+            </div>
+            <div class="card" id="money">
                 <h1>Money 💸</h1>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         select
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a href='https://www.rbcroyalbank.com' >
+                        <a href='https://www.rbcroyalbank.com'>
                             <button class="dropdown-item" type="button">rbc</button>
                         </a>
-                        <a href='https://lae.novascotia.ca/sans/StudentPortal/Login.aspx' >
+                        <a href='https://lae.novascotia.ca/sans/StudentPortal/Login.aspx'>
                             <button class="dropdown-item" type="button">loan</button>
                         </a>
-                        <a href='https://mywireless.eastlink.ca/login.html' >
+                        <a href='https://mywireless.eastlink.ca/login.html'>
                             <button class="dropdown-item" type="button">phone</button>
                         </a>
-                        <a href='https://service.aliant.bell.ca/myaccount/login/login.jsf?' >
+                        <a href='https://service.aliant.bell.ca/myaccount/login/login.jsf?'>
                             <button class="dropdown-item" type="button">internet</button>
                         </a>
                     </div>
                 </div>
-        </div>
+            </div>
+        </section>
     </section>
-
     <footer>
-        This page is a learning project and was made by studying the code of another cool startpage: <a href="https://qnnie.github.io/YuruCamp-Startpage/" target="_blank">YuruCamp-Startpage</a>. It is still a work in progress.
+        This page is a learning project and was made by studying the code of another cool startpage: <a
+            href="https://qnnie.github.io/YuruCamp-Startpage/" target="_blank">YuruCamp-Startpage</a>. It is still a
+        work in progress.
     </footer>
 
     <script src="./js/search.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 
