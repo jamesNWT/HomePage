@@ -43,7 +43,12 @@ function search(query){
 
         default:
             window.location="https://www.google.ca/search?q=" +
-            query.replaceChars("", "+");
+            
+            //workaround for + being a special char in google search URL
+            query.replaceChars("+", "plus"); 
+            
+            query.replaceChars("", "%20");
+            
     }
 }
 
