@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(searock.jpg);
+    /* background-image: url(searock.jpg); */
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,7 +72,7 @@ body {
     position: relative;
     width: 250px;
     height: 125px;
-    border-radius: 0px;
+    border-radius: 0px; 
 }
 
 .dropdown-menu button {
