@@ -1,13 +1,14 @@
 :root {
     --color: #1b758b6e;
-    --color-opaque: #1b758b;
-    --color-darker: #0c2f38;
+    --color: rgba(41, 41, 41, 0.603);
+    --color-opaque: rgba(36, 36, 36, 1);
+    --color-highlight: #000000;
     --color-secondary:  rgb(255, 255, 255);
     --margins: 20px;
 }
 
 body {
-    background-image: url(fallPainting.jpg);
+    background-image: url(summeralley2.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -71,7 +72,7 @@ body {
     position: relative;
     width: 250px;
     height: 125px;
-    box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    border-radius: 0px; 
 }
 
 .dropdown-menu button {
@@ -83,7 +84,7 @@ body {
 }
 
 .dropdown-item:hover {
-    background: var(--color-darker);
+    background: var(--color-highlight);
     color: var(--color-secondary);
 }
 
@@ -111,7 +112,7 @@ body {
     transform: translate(-50%, -50%);
     background: none;
     border: 2px var(--color-secondary) solid;
-    border-radius: 10px;
+    border-radius: 0px;
     color: var(--color-secondary)
 }
 
