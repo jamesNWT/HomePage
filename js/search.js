@@ -45,7 +45,7 @@ function search(query){
             window.location="https://www.google.ca/search?q=" +
             
             //workaround for + being a special char in google search URL
-            query.replaceChars("+", "plus"); 
+            query.replaceChars("+", "%2B"); 
             
             query.replaceChars("", "%20");
             
