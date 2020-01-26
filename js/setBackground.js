@@ -8,8 +8,6 @@ var doryRef = storageRef.child('backgrounds/dory.jpg');
 
 doryRef.getDownloadURL().then(function(url) {
 
-    var img = document.getElementById("sample");
-
     var background = document.createElement('style');
     background.innerHTML = `
     body {
