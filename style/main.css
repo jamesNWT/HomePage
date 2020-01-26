@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(summeralley2.jpg);
+    /* image source to be set in js/setBackground.js */
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }

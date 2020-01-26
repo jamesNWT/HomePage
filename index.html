@@ -15,7 +15,8 @@
     <section id="main-content">
         <section id="search-weather">
             <div id=searchboxContainer>
-                <input id="searchbox" type="text" placeholder="" autofocus onfocusout="searchUnfocus()" onfocus="searchFocus()"/>
+                <input id="searchbox" type="text" placeholder="" autofocus onfocusout="searchUnfocus()"
+                    onfocus="searchFocus()" />
             </div>
             <div id="weather">
                 <span id="location"> Loacation - </span>
@@ -146,9 +147,30 @@
             href="https://qnnie.github.io/YuruCamp-Startpage/" target="_blank">YuruCamp-Startpage</a>. It is still a
         work in progress.
     </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+
+    <script>
+        // Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBPPF6LPKotYrCKJlY5TEv9nobECAyFZVw",
+            authDomain: "homepage-dd7cf.firebaseapp.com",
+            databaseURL: "https://homepage-dd7cf.firebaseio.com",
+            projectId: "homepage-dd7cf",
+            storageBucket: "homepage-dd7cf.appspot.com",
+            messagingSenderId: "201762157349",
+            appId: "1:201762157349:web:cade24c7e1bd2bf2c3e0cc"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/setBackground.js"></script>
     <script src="js/index.js"></script>
     <script src="./js/search.js"></script>
     <script src="js/weather.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
