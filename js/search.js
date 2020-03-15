@@ -48,6 +48,8 @@ function search(query){
             query.replaceChars("+", "%2B"); 
             
             query.replaceChars("", "%20");
+
+            query.replaceChars("#", "%23");
             
     }
 }
