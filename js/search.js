@@ -42,15 +42,10 @@ function search(query){
             break;
 
         default:
-            window.location="https://www.google.ca/search?q=" +
-            
-            //workaround for + being a special char in google search URL
-            query.replaceChars("+", "%2B"); 
-            
-            query.replaceChars("", "%20");
-
-            query.replaceChars("#", "%23");
-            
+            temp = query.replaceChars("+", "%2B");
+            temp2 = temp.replaceChars("", "%20");
+            query = temp2.replaceChars("#", "%23");
+            window.location="https://www.google.ca/search?q=" + query;
     }
 }
 
