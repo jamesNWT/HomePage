@@ -9,7 +9,10 @@
 
 body {
     /* image source to be set in js/setBackground.js */
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100v;
+    background-size: 1920px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
